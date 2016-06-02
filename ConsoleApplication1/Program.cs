@@ -17,7 +17,7 @@ namespace ConsoleApplication1
             Record<int> score2 = new Record<int>("QQ", 123);
             Console.WriteLine("QQ " + score2.Getgrade());
 
-            // 多識別字用法
+            // 多識別字用法。
             Demo<string, string> d1 = new Demo<string, string>("Hello~", "ASP.NET.");
             d1.DoSomething();
 
@@ -25,7 +25,7 @@ namespace ConsoleApplication1
             d2.DoSomething();
             Console.WriteLine(d2.GetStr());
 
-            // 在 Method 達到泛型的效果
+            // 在 Method 達到泛型的效果。
             Console.WriteLine(Show<string>("Hello!"));
 
             Console.ReadKey();
