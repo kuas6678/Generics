@@ -25,7 +25,7 @@ namespace ConsoleApplication1
             d2.DoSomething();
             Console.WriteLine(d2.GetStr());
 
-            // 在 Method 達到泛型的效果。
+            // 在方法 Method 達到泛型的效果。
             Console.WriteLine(Show<string>("Hello!"));
 
             Console.ReadKey();
